@@ -2,7 +2,7 @@ This [Figma plugin](https://www.figma.com/plugin-docs/intro/) is intended to pro
 [state charts](https://xstate.js.org/docs/) and using the workflow described [here](https://dev.to/johnkazer/revist-the-waterfall-process-but-this-time-with-maths-27cn). By default, the plugin grabs the names and id's of each frameNode and lists them as 
 an array of objects in the console and textArea, from where you can copy them. Note that there 
 may be more frameNodes listed than you want - so some editing may be required. To use the id in a 
-URL it may need to be escaped (e.g. '0:1' becomes '0%3A1'). Don't forget to give yourself (or the world) access to the Figma project - otherwise sketch.systems won't be able to access the URLs of your frames.
+URL it may need to be escaped (e.g. '0:1' becomes '0%3A1'). Don't forget to give yourself (or the world) access to the Figma project - otherwise sketch.systems won't be able to access the URLs of your frames. Until the plugin is published, it will only work in development mode within the Figma desktop app.
 
 You can find a design sequence example in these [Figma](https://www.figma.com/file/ssXtpV1BVzqg8XNDNb7zIf/Sample-File?node-id=0%3A1) and [sketch.systems](https://sketch.systems/johnkazer/sketch/c5d2f505301378b60e967b0d6c260c1a) projects, which used this plugin to create the list of nodes searched by the state chart.
 
