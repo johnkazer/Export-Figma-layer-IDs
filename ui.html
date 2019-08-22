@@ -1,0 +1,10 @@
+<button onclick='saveUrls()'>Save URLs</button>
+<textarea id='nodes'></textarea>
+<script>
+    const saveUrls = () => {
+        parent.postMessage({ pluginMessage: 'save' }, '*')
+    }
+    onmessage = (event) => {
+        document.getElementById('nodes').value = event.data.pluginMessage
+    }
+</script>

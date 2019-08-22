@@ -1,0 +1,7 @@
+{
+  "name": "Export layer URLs",
+  "id": "746303325689932192",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html"
+}
