@@ -4,6 +4,8 @@ an array of objects in the console and textArea, from where you can copy them. N
 may be more frameNodes listed than you want - so some editing may be required. To use the id in a 
 URL it may need to be escaped (e.g. '0:1' becomes '0%3A1'). Don't forget to give yourself (or the world) access to the Figma project - otherwise sketch.systems won't be able to access the URLs of your frames.
 
+You can find a design sequence example in these [Figma](https://www.figma.com/file/ssXtpV1BVzqg8XNDNb7zIf/Sample-File?node-id=0%3A1) and [sketch.systems](https://sketch.systems/johnkazer/sketch/c5d2f505301378b60e967b0d6c260c1a) projects, which used this plugin to create the list of nodes searched by the state chart.
+
 Standard content from Figma:
 
 This plugin template uses Typescript. If you are familiar with Javascript, Typescript will
